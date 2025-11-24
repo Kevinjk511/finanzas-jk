@@ -24,9 +24,7 @@ const Login = ({ onSwitchToRegister }) => {
     return (
         <section className="fixed inset-0 z-50 flex items-center justify-center bg-zinc-50 dark:bg-black transition-opacity duration-500">
             <div className="w-full max-w-sm p-8 bg-white dark:bg-zinc-900 border border-zinc-200 dark:border-zinc-800 rounded-2xl shadow-xl dark:shadow-none animate-fade-in">
-                <div className="h-10 w-10 bg-zinc-900 dark:bg-white text-white dark:text-black rounded-xl flex items-center justify-center mb-6 shadow-sm mx-auto">
-                    <span className="font-semibold text-xl tracking-tighter">F</span>
-                </div>
+                <img src="/logo.png" alt="Finanzas JK" className="h-10 w-10 rounded-xl mb-6 shadow-sm mx-auto" />
 
                 <h2 className="text-xl font-semibold text-center text-zinc-900 dark:text-white tracking-tight mb-1">Bienvenido de nuevo</h2>
                 <p className="text-sm text-center text-zinc-500 dark:text-zinc-400 mb-8">Ingresa tus credenciales para acceder</p>

@@ -15,9 +15,7 @@ const Sidebar = ({ activeTab, setActiveTab }) => {
     return (
         <aside className="w-20 lg:w-64 bg-white dark:bg-zinc-950 border-r border-zinc-200 dark:border-zinc-800 flex flex-col flex-shrink-0 transition-colors duration-300 z-20">
             <div className="h-16 flex items-center justify-center lg:justify-start lg:px-6 border-b border-zinc-100 dark:border-zinc-900">
-                <div className="h-8 w-8 bg-zinc-900 dark:bg-white text-white dark:text-black rounded-lg flex items-center justify-center mr-0 lg:mr-3 shadow-sm">
-                    <span className="font-medium text-lg tracking-tighter">F</span>
-                </div>
+                <img src="/logo.png" alt="Finanzas JK" className="h-8 w-8 rounded-lg mr-0 lg:mr-3 shadow-sm" />
                 <span className="hidden lg:block font-medium text-sm tracking-tight text-zinc-900 dark:text-zinc-100">Finanzas JK</span>
             </div>
 
